@@ -1,0 +1,1 @@
+The project uses a Python virtual environment to manage dependencies. It also uses a `.env` file to manage environment variables for configuration and secrets.

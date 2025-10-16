@@ -1,0 +1,1 @@
+The user wants to learn everything about implementing certain usecases using langchain and then move to langgraph gracefully to have comprehensive knowledge on how to build agentic ai in python using these frameworks.

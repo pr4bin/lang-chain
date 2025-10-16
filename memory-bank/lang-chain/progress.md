@@ -1,0 +1,10 @@
+-	Created the `lang-chain` directory.
+-	Created a Python 3.11 virtual environment.
+-	Installed the `langchain` package.
+-	Verified the `langchain` installation.
+-	Installed the `langchain-perplexity` and `python-dotenv` packages.
+-	Successfully invoked the Perplexity model.
+-	Implemented a prompt template example.
+-	Configured the project to use a `.env` file for API keys and model configuration.
+-	Implemented `StrOutputParser.py` to demonstrate output parsing.
+-	Added a custom function to `StrOutputParser.py` to remove citations and bold markdown from the LLM's output.

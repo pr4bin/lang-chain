@@ -1,0 +1,1 @@
+The project is now focused on learning LangChain concepts, specifically output parsing and cleaning. We have successfully implemented a basic LLM invocation using Perplexity, a more advanced example using prompt templates, and have demonstrated how to clean the LLM's output by removing citations and markdown.

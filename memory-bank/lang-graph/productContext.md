@@ -1,0 +1,1 @@
+The user wants to set up a development environment for working with LangGraph, following the instructions from a LangChain Academy course.

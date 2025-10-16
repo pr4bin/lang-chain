@@ -1,0 +1,5 @@
+-	Created the `lang-graph` directory.
+-	Created a Python 3.11 virtual environment.
+-	Verified Python, Node.js, and npx versions.
+-	Installed the `uv` package manager.
+-	The environment is ready for the next steps of the LangGraph course.

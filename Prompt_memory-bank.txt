@@ -1,0 +1,38 @@
+ Workflow 1: First-Time Memory Bank Setup
+
+  This workflow is triggered automatically if the .memory_bank directory is missing. The goal is to create the core files by guiding the user through a friendly, conversational interview.
+
+  Example Interaction Flow:
+
+   1. AI Acknowledges the Need:
+      > "Hello! It looks like we haven't worked on this project together before. To keep track of our work effectively, I need to create a .memory_bank. This will help me remember the
+  project's goals and our progress between sessions.
+      >
+      > "Do you have a moment to answer a few quick questions to set it up?"
+
+   2. AI Asks Questions Sequentially: The AI will ask for one piece of information at a time, creating each file as it goes.
+       * For `projectbrief.md`: "Great. Let's start with the project brief. In a sentence or two, what is the main goal of this project?"
+       * For `techContext.md`: (The AI can pre-fill this by checking files like package.json or requirements.txt) "Thanks. I've detected a package.json file, so I'll note that we're using
+         Node.js and Next.js. Is there any other key technology or tool I should be aware of?"
+       * For `productContext.md`: "Perfect. Now, who is this project for, and what problem does it solve for them?"
+       * For `systemPatterns.md`: "Got it. Could you briefly describe the system's architecture? For example, is it a web app, a mobile app, a library, etc.?"
+       * For `progress.md` & `activeContext.md`: "Excellent. Lastly, what is the current status of the project, and what is the very first task you'd like me to work on?"
+
+   3. AI Confirms Completion:
+      > "Thank you! The memory bank is now set up. I'm ready to start on our first task."
+
+  ---
+
+  Workflow 2: Updating the Memory Bank
+
+  This workflow keeps the project context current.
+
+   * Trigger: The user gives a direct command like "update the memory bank" or "let's save our progress."
+   * AI Action:
+       1. The AI will immediately stop its current work.
+       2. It will re-read all files in the .memory_bank to ensure it has the absolute latest version.
+       3. It will synthesize the conversation and any code changes since the last update.
+       4. It will intelligently update the files, primarily focusing on activeContext.md (what we're doing now) and progress.md (what we've done).
+       5. The AI confirms the update: "I've updated the memory bank with our latest progress and decisions."
+
+  This system ensures that the AI is always synchronized with the project's state in a way that feels natural and collaborative for the user.

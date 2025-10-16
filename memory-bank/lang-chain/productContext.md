@@ -1,0 +1,1 @@
+The user wants to set up a development environment for working with the LangChain library.

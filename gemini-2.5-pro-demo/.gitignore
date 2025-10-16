@@ -1,0 +1,11 @@
+# Ignore files containing sensitive information
+gemini_Api_Key.txt
+*.txt
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc

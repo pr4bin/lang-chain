@@ -1,0 +1,5 @@
+   * `sonar`: A lightweight and cost-effective model for quick, factual queries.
+   * `sonar pro`: A more advanced model for complex queries.
+   * `sonar reasoning`: A model designed for fast, real-time reasoning tasks.
+   * `sonar reasoning pro`: A model for precise, step-by-step reasoning, powered by DeepSeek-R1.
+   * `sonar deep research`: A model for in-depth analysis and generating comprehensive reports.

@@ -1,0 +1,5 @@
+-	Python 3.11.9
+-	Node.js v22.19.0
+-	npx 10.8.2
+-	uv 0.8.14
+-	Virtual environment located at `C:\gemini projects\lang-graph\venv`

@@ -1,0 +1,1 @@
+The main goal of the python-demo project is to learn and experiment with configuring Agentic AI, fine-tuning AI models, Vector Databases, and Retrieval-Augmented Generation (RAG).

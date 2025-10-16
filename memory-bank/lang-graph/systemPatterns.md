@@ -1,0 +1,1 @@
+The project uses a Python virtual environment to manage dependencies. The `uv` package manager was installed and used.

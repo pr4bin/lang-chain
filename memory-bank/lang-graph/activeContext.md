@@ -1,0 +1,1 @@
+The initial setup of the `lang-graph` project is complete. A virtual environment has been created, and the required prerequisites (Python, Node.js, npx, uv) have been verified.
