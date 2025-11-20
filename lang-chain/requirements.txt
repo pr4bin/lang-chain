@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-perplexity
+python-dotenv
+reactpy
+fastapi
+uvicorn[standard]

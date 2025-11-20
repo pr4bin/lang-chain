@@ -1,10 +1,21 @@
--	Created the `lang-chain` directory.
--	Created a Python 3.11 virtual environment.
--	Installed the `langchain` package.
--	Verified the `langchain` installation.
--	Installed the `langchain-perplexity` and `python-dotenv` packages.
--	Successfully invoked the Perplexity model.
--	Implemented a prompt template example.
--	Configured the project to use a `.env` file for API keys and model configuration.
--	Implemented `StrOutputParser.py` to demonstrate output parsing.
--	Added a custom function to `StrOutputParser.py` to remove citations and bold markdown from the LLM's output.
+- Created the `lang-chain` directory.
+- Created a Python 3.11 virtual environment.
+- Installed the `langchain` package.
+- Verified the `langchain` installation.
+- Installed the `langchain-perplexity` and `python-dotenv` packages.
+- Successfully invoked the Perplexity model.
+- Implemented a prompt template example.
+- Configured the project to use a `.env` file for API keys and model configuration.
+- Implemented `StrOutputParser.py` to demonstrate output parsing.
+- Added a custom function to `StrOutputParser.py` to remove citations and bold markdown from the LLM's output.
+- Refactored the entire project into a modular structure with an `app/` directory for core logic.
+- Consolidated model initialization into a reusable `llm_provider.py`.
+- Centralized all configuration into `config.py`.
+- Created a `main.py` CLI to run all examples from a single entry point.
+- Resolved dependency conflicts by upgrading `langchain`, `langchain-community`, and `langchain-perplexity` packages.
+- Converted the CLI into a user-friendly, interactive menu system.
+- Implemented in-memory caching for the LLM to improve performance.
+- Made the "Prompt Template" example interactive, turning it into an "AI Translator".
+- Enhanced the "AI Translator" to produce clean, translation-only output.
+- Made the "Comma-Separated List Parser" example interactive, turning it into a "List Generator".
+- Enhanced the "List Generator" to produce a clean, citation-free list.
