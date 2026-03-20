@@ -1,7 +1,7 @@
 """Initializes and provides the LLM instance and invocation functions."""
 
 from langchain_community.cache import InMemoryCache
-from langchain_perplexity import ChatPerplexity
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from . import config
@@ -9,9 +9,9 @@ from .utils.clearString import remove_citations_and_bold
 
 
 # Initialize the model with settings from the config file and a cache
-llm = ChatPerplexity(
-    model=config.PPLX_MODEL,
-    api_key=config.PPLX_API_KEY,
+llm = ChatGoogleGenerativeAI(
+    model=config.GEMINI_MODEL,
+    google_api_key=config.GEMINI_API_KEY,
     cache=InMemoryCache()
 )
 

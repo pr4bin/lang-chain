@@ -13,6 +13,9 @@ def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
 def run(question: str, file_path: str):
+    # Resolve the absolute path to the document relative to the project root
+    file_path = os.path.join(os.path.dirname(__file__), '..', '..', file_path)
+
     # Determine the loader based on the file extension
     if file_path.lower().endswith(".pdf"):
         loader = PyPDFLoader(file_path)
