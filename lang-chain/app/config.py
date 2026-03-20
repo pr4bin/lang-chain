@@ -6,6 +6,6 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-# Perplexity AI Configuration
-PPLX_API_KEY = os.getenv("PPLX_API_KEY")
-PPLX_MODEL = os.getenv("PPLX_MODEL")
+# Gemini AI Configuration
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL")
